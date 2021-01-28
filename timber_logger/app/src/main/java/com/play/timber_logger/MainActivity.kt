@@ -1,12 +1,11 @@
-package com.play.databinding
+package com.play.timber_logger
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.main_layout)
+        setContentView(R.layout.activity_main)
     }
 }
